@@ -104,6 +104,20 @@ namespace QUANLYBANVETAU
             }
         }
 
+        public bool IsLoggedInQuanLy = false;
+
+        public void KiemTraQuyen()
+        {
+            // Tìm và vô hiệu hóa/ẩn menu QUẢN LÝ nếu IsLoggedInQuanLy là false
+            // Bạn cần thay thế tên biến menu chính xác của menu QUẢN LÝ trong FrmMain.Designer.cs
+            // Ví dụ: Giả sử menu QUẢN LÝ có tên là 'quanLyToolStripMenuItem'
+            if (mnuQuanLy != null)
+            {
+                // Chỉ cho phép menu QUẢN LÝ hiển thị nếu đã đăng nhập thành công
+                mnuQuanLy.Visible = IsLoggedInQuanLy;
+            }
+        }
+
         private void mnuQuanLyVeTau_Click(object sender, EventArgs e)
         {
             FrmQuanLyVeTau frmQuanLyVeTau = new FrmQuanLyVeTau();
@@ -114,6 +128,25 @@ namespace QUANLYBANVETAU
         {
             FrmQuanLyTau frmQuanLyTau = new FrmQuanLyTau();
             frmQuanLyTau.Show();
+        }
+
+        private void mnuTimKiemVeTau_Click(object sender, EventArgs e)
+        {
+            FrmTimKiemVeTau frmTimKiemVeTau = new FrmTimKiemVeTau();
+            frmTimKiemVeTau.Show();
+        }
+
+        private void mnuTimKiemVeDaDat_Click(object sender, EventArgs e)
+        {
+            FrmTimKiemVeDaDat frmTimKiemVeDaDat = new FrmTimKiemVeDaDat();
+            frmTimKiemVeDaDat.Show();
+        }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+            KiemTraQuyen();
+            FrmDangNhap fdn = new FrmDangNhap(this); // Truyền tham chiếu Form Main
+            fdn.ShowDialog();
         }
     }
 }

@@ -114,7 +114,7 @@ namespace QUANLYBANVETAU
                 danhSachGheDaDat.Add((int)row["SoGhe"]);
             }
 
-            for (int i = 1; i <= 51; i++)
+            for (int i = 1; i <= 44; i++)
             {
                 Button btnGhe = new Button();
                 btnGhe.Text = i.ToString();

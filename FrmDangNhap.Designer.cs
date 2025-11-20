@@ -35,6 +35,7 @@
             this.btnThoat = new System.Windows.Forms.Button();
             this.txtDangNhap = new System.Windows.Forms.TextBox();
             this.txtMatKhau = new System.Windows.Forms.TextBox();
+            this.btnKhachHang = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTieuDe
@@ -106,11 +107,23 @@
             this.txtMatKhau.Size = new System.Drawing.Size(343, 45);
             this.txtMatKhau.TabIndex = 6;
             // 
+            // btnKhachHang
+            // 
+            this.btnKhachHang.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKhachHang.Location = new System.Drawing.Point(876, 350);
+            this.btnKhachHang.Name = "btnKhachHang";
+            this.btnKhachHang.Size = new System.Drawing.Size(248, 50);
+            this.btnKhachHang.TabIndex = 7;
+            this.btnKhachHang.Text = "KHÁCH HÀNG";
+            this.btnKhachHang.UseVisualStyleBackColor = true;
+            this.btnKhachHang.Click += new System.EventHandler(this.btnKhachHang_Click);
+            // 
             // FrmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1204, 482);
+            this.Controls.Add(this.btnKhachHang);
             this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.txtDangNhap);
             this.Controls.Add(this.btnThoat);
@@ -134,5 +147,6 @@
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.TextBox txtDangNhap;
         private System.Windows.Forms.TextBox txtMatKhau;
+        private System.Windows.Forms.Button btnKhachHang;
     }
 }

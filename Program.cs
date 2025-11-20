@@ -16,7 +16,7 @@ namespace QUANLYBANVETAU
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmQuanLyTau());
+            Application.Run(new FrmMain());
         }
     }
 }

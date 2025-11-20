@@ -73,7 +73,7 @@
             // 
             this.cboGaDen.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboGaDen.FormattingEnabled = true;
-            this.cboGaDen.Location = new System.Drawing.Point(887, 104);
+            this.cboGaDen.Location = new System.Drawing.Point(907, 101);
             this.cboGaDen.Name = "cboGaDen";
             this.cboGaDen.Size = new System.Drawing.Size(275, 46);
             this.cboGaDen.TabIndex = 20;

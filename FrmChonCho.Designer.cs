@@ -135,7 +135,7 @@
             this.grpChonCho.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpChonCho.Location = new System.Drawing.Point(75, 590);
             this.grpChonCho.Name = "grpChonCho";
-            this.grpChonCho.Size = new System.Drawing.Size(1266, 410);
+            this.grpChonCho.Size = new System.Drawing.Size(1266, 526);
             this.grpChonCho.TabIndex = 4;
             this.grpChonCho.TabStop = false;
             this.grpChonCho.Text = "CHỌN CHỖ";
@@ -144,14 +144,14 @@
             // 
             this.flpChonCho.Location = new System.Drawing.Point(30, 54);
             this.flpChonCho.Name = "flpChonCho";
-            this.flpChonCho.Size = new System.Drawing.Size(1203, 336);
+            this.flpChonCho.Size = new System.Drawing.Size(1203, 452);
             this.flpChonCho.TabIndex = 0;
             // 
             // FrmChonCho
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1418, 1071);
+            this.ClientSize = new System.Drawing.Size(1418, 1128);
             this.Controls.Add(this.grpChonCho);
             this.Controls.Add(this.grpGioVe);
             this.Controls.Add(this.grpChonTau);
