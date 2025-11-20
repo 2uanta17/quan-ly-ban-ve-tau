@@ -34,6 +34,7 @@
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.btnInThongTin = new System.Windows.Forms.Button();
             this.DATA_QuanLyVeTau = new System.Windows.Forms.DataGridView();
+            this.btnXoa = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DATA_QuanLyVeTau)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,6 +86,7 @@
             this.btnInThongTin.TabIndex = 21;
             this.btnInThongTin.Text = "IN THÔNG TIN";
             this.btnInThongTin.UseVisualStyleBackColor = true;
+            this.btnInThongTin.Click += new System.EventHandler(this.btnInThongTin_Click);
             // 
             // DATA_QuanLyVeTau
             // 
@@ -96,11 +98,23 @@
             this.DATA_QuanLyVeTau.Size = new System.Drawing.Size(1245, 509);
             this.DATA_QuanLyVeTau.TabIndex = 22;
             // 
+            // btnXoa
+            // 
+            this.btnXoa.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoa.Location = new System.Drawing.Point(1373, 135);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(248, 50);
+            this.btnXoa.TabIndex = 23;
+            this.btnXoa.Text = "XÓA";
+            this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
             // FrmQuanLyVeTau
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1460, 771);
+            this.ClientSize = new System.Drawing.Size(1655, 771);
+            this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.DATA_QuanLyVeTau);
             this.Controls.Add(this.btnInThongTin);
             this.Controls.Add(this.btnTimKiem);
@@ -124,5 +138,6 @@
         private System.Windows.Forms.Button btnTimKiem;
         private System.Windows.Forms.Button btnInThongTin;
         private System.Windows.Forms.DataGridView DATA_QuanLyVeTau;
+        private System.Windows.Forms.Button btnXoa;
     }
 }

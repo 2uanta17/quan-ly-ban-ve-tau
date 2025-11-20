@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnInVe = new System.Windows.Forms.Button();
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.lblNhapSDT = new System.Windows.Forms.Label();
@@ -37,16 +36,6 @@
             this.btnHuyVe = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DATA_VeDaDat)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnInVe
-            // 
-            this.btnInVe.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInVe.Location = new System.Drawing.Point(85, 362);
-            this.btnInVe.Name = "btnInVe";
-            this.btnInVe.Size = new System.Drawing.Size(248, 50);
-            this.btnInVe.TabIndex = 27;
-            this.btnInVe.Text = "IN VÉ";
-            this.btnInVe.UseVisualStyleBackColor = true;
             // 
             // btnTimKiem
             // 
@@ -89,6 +78,8 @@
             // 
             // DATA_VeDaDat
             // 
+            this.DATA_VeDaDat.AllowUserToAddRows = false;
+            this.DATA_VeDaDat.AllowUserToDeleteRows = false;
             this.DATA_VeDaDat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DATA_VeDaDat.Location = new System.Drawing.Point(442, 130);
             this.DATA_VeDaDat.Name = "DATA_VeDaDat";
@@ -100,7 +91,7 @@
             // btnHuyVe
             // 
             this.btnHuyVe.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHuyVe.Location = new System.Drawing.Point(85, 450);
+            this.btnHuyVe.Location = new System.Drawing.Point(85, 367);
             this.btnHuyVe.Name = "btnHuyVe";
             this.btnHuyVe.Size = new System.Drawing.Size(248, 50);
             this.btnHuyVe.TabIndex = 29;
@@ -115,7 +106,6 @@
             this.ClientSize = new System.Drawing.Size(1438, 894);
             this.Controls.Add(this.btnHuyVe);
             this.Controls.Add(this.DATA_VeDaDat);
-            this.Controls.Add(this.btnInVe);
             this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.txtSDT);
             this.Controls.Add(this.lblNhapSDT);
@@ -129,7 +119,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btnInVe;
         private System.Windows.Forms.Button btnTimKiem;
         private System.Windows.Forms.TextBox txtSDT;
         private System.Windows.Forms.Label lblNhapSDT;

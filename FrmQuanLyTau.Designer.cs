@@ -190,6 +190,7 @@
             // 
             // cboTau
             // 
+            this.cboTau.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.cboTau.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboTau.FormattingEnabled = true;
             this.cboTau.Location = new System.Drawing.Point(361, 123);
@@ -199,6 +200,7 @@
             // 
             // cboGaDi
             // 
+            this.cboGaDi.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.cboGaDi.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboGaDi.FormattingEnabled = true;
             this.cboGaDi.Location = new System.Drawing.Point(361, 215);
@@ -208,6 +210,7 @@
             // 
             // cboGaDen
             // 
+            this.cboGaDen.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.cboGaDen.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboGaDen.FormattingEnabled = true;
             this.cboGaDen.Location = new System.Drawing.Point(361, 307);
@@ -220,6 +223,7 @@
             this.txtMaHanhTrinh.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaHanhTrinh.Location = new System.Drawing.Point(361, 404);
             this.txtMaHanhTrinh.Name = "txtMaHanhTrinh";
+            this.txtMaHanhTrinh.ReadOnly = true;
             this.txtMaHanhTrinh.Size = new System.Drawing.Size(275, 45);
             this.txtMaHanhTrinh.TabIndex = 18;
             // 
@@ -235,7 +239,7 @@
             // txtGioDi
             // 
             this.txtGioDi.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGioDi.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.txtGioDi.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.txtGioDi.Location = new System.Drawing.Point(856, 209);
             this.txtGioDi.Name = "txtGioDi";
             this.txtGioDi.Size = new System.Drawing.Size(275, 45);
@@ -244,7 +248,7 @@
             // txtGioDen
             // 
             this.txtGioDen.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGioDen.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.txtGioDen.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.txtGioDen.Location = new System.Drawing.Point(856, 308);
             this.txtGioDen.Name = "txtGioDen";
             this.txtGioDen.Size = new System.Drawing.Size(275, 45);

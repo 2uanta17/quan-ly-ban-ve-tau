@@ -120,6 +120,8 @@
             // 
             // DATA_VeTau
             // 
+            this.DATA_VeTau.AllowUserToAddRows = false;
+            this.DATA_VeTau.AllowUserToDeleteRows = false;
             this.DATA_VeTau.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DATA_VeTau.Location = new System.Drawing.Point(89, 380);
             this.DATA_VeTau.Name = "DATA_VeTau";
